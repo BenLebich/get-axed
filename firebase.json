@@ -1,0 +1,35 @@
+{
+  "hosting": [
+    {
+      "site": "getaxed",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+            "source": "**",
+            "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "site": "getaxed-b55f7",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+            "source": "**",
+            "destination": "/index.html"
+        }
+      ]
+    }
+  ],
+  "emulators": {}
+}

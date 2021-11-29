@@ -1,0 +1,64 @@
+
+html, body {
+    overflow-x:hidden 
+} 
+#video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.bottom-94 {
+    bottom: 94px;
+}
+
+.h-130-px {
+    height: 130px;
+}
+
+.min-h-screen-60 {
+    min-height: 60vh;
+}
+
+.main-bg-media {
+    min-height: 100vh;
+}
+
+.bottom--2 {
+    bottom: -2px;
+}
+
+#three-axe {
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.-mb-1 {
+    margin-bottom: -1px;
+}
+
+.throwing-axe {
+    transition: all .2s ease;
+    margin-top: -200px;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 16px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(71, 85, 105);
+}
